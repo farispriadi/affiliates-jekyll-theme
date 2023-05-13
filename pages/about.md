@@ -5,11 +5,18 @@ permalink: "/about/"
 image: assets/images/screenshot.png
 ---
 
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
+Dengan pengalaman 8+ tahun dalam pengembangan Software dan Penelitian.
 
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
+Memperoleh 3 HAKI dalam membantu [RC-Oppinet](https://oppinet.ppms.itb.ac.id) mengembangkan software Simulasi Perminyakan.
 
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
+Memperoleh 1 HAKI dalam membantu Tim [Simcovid](https://simcovid.github.io/) dalam mengembangkan [Covid Meter](https://ppms.itb.ac.id/simcovid).
 
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
+Terlibat berbagai Riset Internal Universitas dan Matching Funds Kemenristekdikti baik sebagai Asisten Riset maupun sebagai Tenaga Ahli.
+
+[Me on LinkedIn](https://www.linkedin.com/in/faris-priadi/) 
+
+or 
+
+[Email Me (farispriadi@gmail.com)](mailto:farispriadi@gmail.com)
+
 

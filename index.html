@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Help You Build Data Apps Faster
 layout: default
 background: '/img/bg-index.jpg'
 ---
@@ -10,9 +10,9 @@ background: '/img/bg-index.jpg'
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
-      <h1 class="font-weight-bold mb-4 serif-font">Let me  teach you how to become successful online</h1>
-      <p class="lead mb-4">My name is Lyam and I'm here to share with you my knowledge and experience of over 10 years of monetizing my blog.</p>
-      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+      <h1 class="font-weight-bold mb-4 serif-font">Let us help you build Data Apps faster</h1>
+      <p class="lead mb-4">Hai, Saya Faris, siap membantu mempercepat pengembangan Data Apps Anda dengan menyediakan Template Dash Python sesuai fokus Anda.</p>
+      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About</a>
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
       <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
@@ -21,9 +21,30 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
+
+<!-- Call to Action -->
+
+<div style="padding-top: 0px; padding-bottom: 50px;">
+<div class="container">
+<!-- row -->
+<div class="row justify-content-center text-center">
+  <div class="col-md-9 col-12">
+    <!-- heading -->
+    <h2 class="display-4 ">Template Untuk Aplikasi Data Science & Machine Learning</h2>
+    <p class="lead  px-lg-12 mb-6">Dengan kode python dan beragam grafik plotly membuat pengembangan proyek data apps anda jauh lebih cepat dan mudah.</p>
+    <!-- button -->
+    <div class="d-grid d-md-block">
+      <a href="#featured-posts" class="btn btn-info mb-2 mb-md-0">Explore</a>
+      <!-- <a href="#" class="btn btn-info">Getting Started</a> -->
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
 <!-- Featured
 ================================================== -->
-<section class="row">
+<section class="row" id="featured-posts">
   {% for post in site.posts %}
       {% if post.featured == true %}
           <div class="col-md-4 mb-5">
@@ -34,14 +55,15 @@ background: '/img/bg-index.jpg'
   </div>
 </section>
 
+
 <!-- Posts List with Sidebar (except featured)
 ================================================== -->
-<section class="row">
-  <div class="col-sm-8">
+<section class="row" id="posts">
+  <div class="col-sm-12">
     <div class="row">
       {% for post in paginator.posts %}
       {% unless post.featured == true %}
-      <div class="col-md-6 mb-5">
+      <div class="col-md-4 mb-5">
         {% include postbox.html %}
       </div>
       {% endunless %}
@@ -54,7 +76,22 @@ background: '/img/bg-index.jpg'
       </span>
     </div>
   </div>
-  <div class="col-sm-4">
-    {% include sidebar.html %}
-  </div>
 </section>
+
+<!-- CTA 2 -->
+<div class="py-14 ">
+<div class="container">
+<div class="row">
+<div class="offset-lg-2 col-lg-8 col-md-12 col-12 text-center">
+<!-- heading  -->
+<h2 class="display-3 mt-4 mb-3  fw-bold">Belum menemukan template sesuai kebutuhan ?</h2>
+ <!-- para  -->
+<p class="lead  px-lg-8 mb-6">Kontak kami untuk template custom dan integrasi dengan model Anda.</p>
+<a href="https://wa.me/6285601751281" class="btn btn-warning">Contact Us</a>
+<a href="mailto:farispriadi@gmail.com" class="btn btn-info">Email Us</a>
+</div>
+</div>
+</div>
+</div>
+
+
