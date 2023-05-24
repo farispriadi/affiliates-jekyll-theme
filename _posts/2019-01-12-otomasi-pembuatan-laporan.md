@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
-author: sal
+title:  "Otomasi Pembuatan Laporan"
+author: faris
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
 featured: true

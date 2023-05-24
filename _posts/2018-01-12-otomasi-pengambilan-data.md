@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Tree of Codes"
-author: sal
+title:  "Otomasi Pengambilan Data"
+author: faris
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 featured: true
