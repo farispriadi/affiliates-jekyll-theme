@@ -7,9 +7,19 @@ image: assets/images/screenshot.png
 
 Dengan pengalaman 8+ tahun dalam pengembangan Software dan Penelitian.
 
-Memperoleh 3 HAKI dalam membantu [RC-Oppinet](https://oppinet.ppms.itb.ac.id) mengembangkan software Simulasi Perminyakan.
+Pemegang 4 Hak atas Kekayaan Intelektual (HKI) yang terdaftar di PANGKALAN DATA KEKAYAAN INTELEKTUAL, Direktorat Jenderal Kekayaan Intelektual - Kementerian Hukum dan HAM R.I.
 
-Memperoleh 1 HAKI dalam membantu Tim [Simcovid](https://simcovid.github.io/) dalam mengembangkan [Covid Meter](https://ppms.itb.ac.id/simcovid).
+## 3 Hak atas Kekayaan Intelektual (HKI)
+1. Nomor Pencatatan : EC00202045118, [PertafloSIM Version 1](https://pdki-indonesia.dgip.go.id/detail/EC00202045118?type=copyright&keyword=pertaflosim)
+2. Nomor Pencatatan : EC00202131493, [PertafloSIM Version 2](https://pdki-indonesia.dgip.go.id/detail/EC00202131493?type=copyright&keyword=pertaflosim)
+3. Nomor Pencatatan : EC002022104716, [Compo Solver Version 1.0](https://pdki-indonesia.dgip.go.id/detail/EC002022104716?type=copyright&keyword=compo+solver)
+
+dalam membantu [RC-Oppinet](https://oppinet.ppms.itb.ac.id) mengembangkan software Simulasi dan Penelitian.
+
+## 1 Hak atas Kekayaan Intelektual (HKI)
+1. Nomor Pencatatan : 000208231, [COVID METER SIMCOVID](https://pdki-indonesia.dgip.go.id/detail/EC00202039515?type=copyright&keyword=covid+meter)
+
+dalam membantu Tim [Simcovid](https://simcovid.github.io/) dalam mengembangkan aplikasi Web Dashboard [Covid Meter](https://ppms.itb.ac.id/simcovid).
 
 Terlibat berbagai Riset Internal Universitas dan Matching Funds Kemenristekdikti baik sebagai Asisten Riset maupun sebagai Tenaga Ahli.
 

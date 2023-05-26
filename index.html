@@ -45,12 +45,17 @@ background: '/img/bg-index.jpg'
 <!-- Featured
 ================================================== -->
 <section class="row" id="featured-posts">
-  {% for post in site.posts %}
+  {% assign maxPost = 6 %}
+  {% assign counter = 0 %}
+  {% for post in paginator.posts %}
+    {% if counter < maxPost %}
       {% if post.featured == true %}
           <div class="col-md-4 mb-5">
           {% include postbox.html %}
           </div>
       {% endif %}
+    {% endif %}
+    {% assign counter = counter | plus: 1 %}
   {% endfor %}
   </div>
 </section>
@@ -65,7 +70,7 @@ background: '/img/bg-index.jpg'
 <!-- heading  -->
 <h2 class="display-3 mt-4 mb-3  fw-bold">Belum menemukan yang Anda cari ?</h2>
  <!-- para  -->
-<p class="lead  px-lg-8 mb-6">Kontak kami untuk mendapatkan konsultasi gratis untuk pengolahan data dan memunculkan insight dari data Anda.</p>
+<p class="lead  px-lg-8 mb-6">Hubungi kami untuk mendapatkan konsultasi gratis untuk pengolahan data dan memunculkan insight dari data Anda.</p>
 <a href="https://wa.me/6285601751281" class="btn btn-info">Contact Us</a>
 <a href="mailto:farispriadi@gmail.com" class="btn btn-secondary">Email Us</a>
 </div>
@@ -73,4 +78,45 @@ background: '/img/bg-index.jpg'
 </div>
 </div>
 
+<!-- Posts List with Sidebar (except featured)
+    ================================================== -->
+
+
+
+<div style="padding-top: 100px; padding-bottom: 10px;">
+<div class="container">
+<!-- row -->
+<div class="row justify-content-center text-center">
+  <div class="col-md-9 col-12">
+    <!-- heading -->
+    <h3 class="display-4 ">Blog</h3>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<section class="row" id="posts">
+      <div class="col-sm-12">
+        <div class="row">
+          {% assign maxPost = 6 %}
+          {% assign counter = 0 %}
+          {% for post in paginator.posts %}
+            {% if counter < maxPost %}
+              {% unless post.featured %}
+              <div class="col-md-4 mb-5">
+                {% include postbox.html %}
+              </div>
+              {% endunless %}
+            {% endif %}
+            {% assign counter = counter | plus: 1 %}
+          {% endfor %}
+        </div>
+        <!-- Pagination -->
+        <div class="bottompagination">
+          <span class="navigation" role="navigation">
+              {% include pagination.html %}
+          </span>
+        </div>
+      </div>
+    </section>
 
