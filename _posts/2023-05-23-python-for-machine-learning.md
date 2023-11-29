@@ -3,7 +3,7 @@ layout: post
 title:  "Python Untuk Machine Learning"
 author: faris
 categories: [ courses ]
-image: assets/images/3.jpg
+image: assets/images/3.png
 featured: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Python Untuk Pemula"
 author: faris
 categories: [ courses ]
-image: assets/images/2.jpg
+image: assets/images/2.png
 featured: true
 ---
 
